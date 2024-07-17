@@ -1,0 +1,27 @@
+.addCity {
+  width: 40vw;
+  height: 60vh;
+  background-color: rgb(44, 43, 43);
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+.addCity div {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  align-items: flex-start;
+  justify-content: center;
+}
+.addCity input {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 1rem;
+}
+.addCity button {
+  background-color: green;
+  color: white;
+}

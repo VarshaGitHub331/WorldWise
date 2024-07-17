@@ -1,0 +1,49 @@
+.countrieslist {
+  width: 40vw;
+  margin: 1.5rem;
+  padding: 0;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  place-items: Center;
+}
+
+.country {
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  color: white;
+  overflow: hidden;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  background-color: rgb(67, 63, 63);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.countryDetails {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  place-items: center;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.countryFlag {
+  font-size: 2rem;
+}
+
+.countryName {
+  font-size: 1.5rem;
+}

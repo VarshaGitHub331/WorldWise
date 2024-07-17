@@ -1,0 +1,58 @@
+.applayout {
+  width: 95vw;
+  margin: 0;
+  min-height: 90vh;
+
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  border-right: 2.5vw;
+  border-left: 2.5vw;
+  border-top: 5vh;
+  border-bottom: 5vh;
+  border-color: white;
+  border-style: solid;
+  color: white;
+}
+.applayout .citiesAndCountries {
+  width: 47.5vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(36, 34, 34);
+}
+
+.applayout .map {
+  width: 47.5vw;
+  height: 90vh;
+  margin: 0;
+  background-color: white;
+}
+.applayout .logo {
+  width: 47.5vw;
+  height: 10vh;
+  display: flex;
+  place-content: center;
+  margin-bottom: 2.5rem;
+}
+.applayout .logo img {
+  width: 75%;
+  height: 100%;
+  margin-top: 0.5rem;
+}
+.applayout .twobuttons {
+  width: 47.5vw;
+  height: 10vh;
+  display: flex;
+  margin-top: 1rem;
+  place-items: center;
+}
+
+button {
+  background-color: rgba(0, 0, 0, 0.123);
+  color: white;
+}

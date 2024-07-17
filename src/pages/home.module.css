@@ -1,0 +1,56 @@
+.home {
+  width: 95vw;
+  margin: 0;
+  min-height: 90vh;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  border-right: 2.5vw;
+  border-left: 2.5vw;
+  border-top: 5vh;
+  border-bottom: 5vh;
+  border-color: white;
+  border-style: solid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bg.jpg");
+}
+.home section {
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+.home h2 {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.home button {
+  margin-top: 2.5rem;
+  background-color: green;
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.home .ul {
+  width: 95vw;
+}

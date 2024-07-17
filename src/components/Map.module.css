@@ -1,0 +1,13 @@
+.MapContainer {
+  height: 90vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+}
+.map {
+  height: 100%;
+}
+.MapContainer button {
+  z-index: 1;
+  background-color: green;
+}

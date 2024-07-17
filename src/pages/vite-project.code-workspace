@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "vite-project",
+		"path": "../.."
+	},
+	{
+		"name": "data",
+		"path": "../../../REACT_COURSE/ultimate-react-course-main/11-worldwise/starter/data"
+	}
+],
+  "settings": {}
+}

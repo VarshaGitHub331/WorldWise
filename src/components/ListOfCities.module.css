@@ -1,0 +1,35 @@
+.citieslist {
+  width: 40vw;
+  height: 50vh;
+  margin: 1.5rem;
+  padding: 0;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.citieslist .city {
+  width: 35vw;
+  height: 10vh;
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(54, 50, 50);
+  border-left: 0.5rem solid green;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+}
+.citieslist .city--active {
+  border: 0.5rem solid green;
+}
+.citieslist .city .name {
+  width: 50%;
+  margin-left: 1.5rem;
+}
+.citieslist button {
+  border-radius: 50%;
+  margin-left: 0.2rem;
+}
